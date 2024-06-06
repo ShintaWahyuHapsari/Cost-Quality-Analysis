@@ -46,7 +46,7 @@ plt.show()
 
 # Plot Perbedaan
 plt.figure(figsize=(10, 6))
-plt.bar(df["Bulan"], df["Dif"], color='orange')
+plt.bar(df["Bulan"], df["Dif"], color='red')
 plt.xlabel("Bulan")
 plt.ylabel("Dif")
 plt.title("Perbedaan antara Prevention Cost dan Failure Cost")
@@ -88,7 +88,7 @@ plt.show()
 
 # Plot Column Chart untuk Perbedaan
 plt.figure(figsize=(10, 6))
-plt.bar(df["Bulan"], df["Dif"], color='orange', width=0.4)
+plt.bar(df["Bulan"], df["Dif"], color='red', width=0.4)
 plt.xlabel("Bulan")
 plt.ylabel("Dif")
 plt.title("Perbedaan antara Prevention Cost dan Failure Cost")
